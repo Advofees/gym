@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+}
+nav {
+  z-index: 10001 !important;
+}
+.gradientBg {
+  background: linear-gradient(99deg, #ee9ae5, #5961f9 100%);
+}
+.btnPrimary {
+  @apply py-2 px-8 bg-[#FAE26B] font-semibold rounded hover:bg-transparent hover:ring-2 hover:text-white hover:ring-white transition-all duration-300;
+}
+
+.btnPrimary2 {
+  @apply py-2 px-8 bg-[#3E3310] text-white font-semibold rounded hover:bg-transparent hover:ring-2 hover:text-[#3E3310] hover:ring-[#3E3310] transition-all duration-300
+}
