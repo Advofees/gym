@@ -4,7 +4,7 @@ import { AppContext } from "../context/AppContext";
 import { MdOutlineDateRange, MdEditNote, MdAddToPhotos } from "react-icons/md";
 import { IoTrashOutline } from "react-icons/io5";
 
-const api = "http://ec2-3-250-189-231.eu-west-1.compute.amazonaws.com:8080";
+const api = "http://ec2-51-20-250-151.eu-north-1.compute.amazonaws.com:8080";
 // const api = "http://localhost:8080";
 
 function Dashboard() {
